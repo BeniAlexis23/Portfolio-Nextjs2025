@@ -119,16 +119,23 @@
 }
 
 @layer base {
-  html, body {
+
+  html {
+    @apply font-sans;
+  }
+
+  html,
+  body {
     height: 100%;
     margin: 0;
     padding: 0;
   }
-  
+
   #__next {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Asegura que toda la app ocupe la pantalla */
+    min-height: 100vh;
+    /* Asegura que toda la app ocupe la pantalla */
   }
 
   body {
@@ -145,5 +152,19 @@
 
   .h3 {
     @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
+  }
+}
+
+@layer utilities {
+  .text-outline {
+    -webkit-text-stroke: 1px #ffffff;
+  }
+
+  .text-outline-hover {
+    -webkit-text-stroke: 1px #00ff99;
+  }
+
+  .group:hover .text-outline {
+    -webkit-text-stroke: 1px #00ff99;
   }
 }

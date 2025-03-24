@@ -15,10 +15,10 @@ const Home = () => {
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Ingeniero de Sistemas</span>
             <h1 className="h1 mb-6">Hola! soy <br /> <span className="text-[#00ff99]">Beni Luyo</span></h1>
-            <p className="max-w-[500px] mb-9 text-justify text-white/80">Desarrollador Front-end con 5 años de experiencia realizando interfaces de usuarios responsivas e interactivas consumiendo
-              APIs, con conocimientos en los leguajes JavaScript y Python, frameworks como Vue, Nuxt js, Laravel y la biblioteca de React.
-              También cuento con experiencia en SIG, Aceditación y Gestión de Calidad con estándares ISO. Tengo capacidad de rápido
-              aprendizaje, trabajo en equipo y valores de respeto, solidaridad, puntualidad y responsabilidad.</p>
+            <p className="max-w-[500px] mb-9 text-justify text-white/80">Desarrollador web con 5 años de experiencia
+              en proyectos utilizando leguajes como JavaScript, Java y Python, frameworks como Vue, React, Nuxt js, Next js.
+              Cuento con experiencia en SIG, Aceditación y Gestión de Calidad. Cuento con capacidad de rápido
+              aprendizaje, trabajo en equipo y valores como respeto, solidaridad, puntualidad y responsabilidad.</p>
             {/* social buttons */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Link href="https://drive.google.com/file/d/1o6SRFHy_Frf0m--lyyPQZ_rSEKilOSRG/view?usp=sharing" target="_blank">
@@ -33,7 +33,7 @@ const Home = () => {
             </div>
           </div>
           {/*photo */}
-          <div className="order-1 xl:order-none mb-8 xl:mb-0">
+          <div className="order-1 pt-6 xl:order-none xl:mb-0 xl:pt-0">
             <Photo />
           </div>
         </div>

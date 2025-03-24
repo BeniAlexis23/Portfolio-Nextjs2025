@@ -13,7 +13,7 @@ const Stats = () => {
     return (
         <section className="pt-0 pb-10">
             <div className="container mx-auto px-6 xl:px-0 xl:max-w-[1280px]">
-                <div className="flex flex-wrap gap-6 justify-center xl:justify-between">
+                <div className="flex flex-wrap gap-12 pt-4 xl:pt-0 xl:gap-6 justify-center xl:justify-between">
                     {stats.map((item, index) => (
                         <div
                             key={index}
@@ -36,4 +36,4 @@ const Stats = () => {
     );
 };
 
-export default Stats;
+export default Stats
