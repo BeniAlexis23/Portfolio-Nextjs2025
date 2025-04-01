@@ -14,7 +14,7 @@ const Home = () => {
           {/*text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Ingeniero de Sistemas</span>
-            <h1 className="h1 mb-6">Hola! soy <br /> <span className="text-[#00ff99]">Beni Luyo</span></h1>
+            <h1 className="h1 mt-6 mb-6">Hola! soy <br /> <span className="text-[#00ff99]">Beni Luyo</span></h1>
             <p className="max-w-[500px] mb-9 text-justify text-white/80">Desarrollador web con 5 años de experiencia
               en proyectos utilizando leguajes como JavaScript, Java y Python, frameworks como Vue, React, Nuxt js, Next js.
               Cuento con experiencia en SIG, Aceditación y Gestión de Calidad. Cuento con capacidad de rápido

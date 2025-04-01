@@ -8,29 +8,30 @@ import { motion } from "framer-motion";
 const services = [
     {
         num: '01',
-        title: 'Web Development',
-        description: 'We build websites that serve as powerful marketing tools and bring memorable brand experiences.',
+        title: 'Desarrollo Web',
+        description: 'Creo sitios web modernos, optimizados y funcionales para potenciar tu negocio en línea.',
         href: ""
     },
     {
         num: '02',
-        title: 'Quality Assurance',
-        description: 'We build websites that serve as powerful marketing tools and bring memorable brand experiences.',
+        title: 'Asistente de Calidad',
+        description: 'Mejoro y optimizo procesos mediante la gestión de calidad y control de errores en sistemas y servicios.',
         href: ""
     },
     {
         num: '03',
-        title: 'Logo Design',
-        description: 'We build websites that serve as powerful marketing tools and bring memorable brand experiences.',
+        title: 'Diseño de Logo',
+        description: 'Diseño identidades visuales únicas y memorables que representan la esencia de tu marca.',
         href: ""
     },
     {
         num: '04',
-        title: 'CEO',
-        description: 'We build websites that serve as powerful marketing tools and bring memorable brand experiences.',
+        title: 'CTO',
+        description: 'Asesoro en la toma de decisiones tecnológicas para optimizar el crecimiento y la innovación en tu empresa.',
         href: ""
     }
-]
+];
+
 
 const Services = () => {
     return (

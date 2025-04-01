@@ -17,30 +17,30 @@ import WorkSliderBtns from "@/components/ui/WorkSliderBtns";
 const projects = [
     {
         num: "01",
-        category: "Frontend",
-        title: "Portfolio",
-        description: "My personal portfolio website built with Next.js and Tailwind CSS.",
-        stack: [{ name: "Next.js" }, { name: "Tailwind CSS" }, { name: "Javascript" }],
+        category: "Proyecto Frontend",
+        title: "Project 1",
+        description: "Mi portafolio web personal construido con Next.js y Tailwind CSS.",
+        stack: [{ name: "Next.js" }, { name: "Tailwind CSS" }],
         image: "/assets/work/thumb1.png",
         live: "",
         github: "",
     },
     {
         num: "02",
-        category: "Full Stack",
+        category: "Proyecto Full Stack",
         title: "Project 2",
-        description: "My personal portfolio website built with Next.js and Tailwind CSS.",
-        stack: [{ name: "Next.js" }, { name: "Tailwind CSS" }, { name: "Node.js" }],
+        description: "Sistema web desarrollado para la Facultad de Ingeniería de la UNDC, utilizando React, Tailwind CSS, Mongo DB y Node JS.",
+        stack: [{ name: "React" }, { name: "Tailwind CSS" }, { name: "Mongo DB" }, { name: "Node.js" }],
         image: "/assets/work/thumb2.png",
         live: "",
         github: "",
     },
     {
         num: "03",
-        category: "Backend",
+        category: "Proyecto Backend",
         title: "Project 3",
-        description: "My personal portfolio website built with Next.js and Tailwind CSS.",
-        stack: [{ name: "Next.js" }, { name: "CSS" }, { name: "Node.js" }],
+        description: "CRUD web utilizando APIs con Java, Sprint Boot y Oracle.",
+        stack: [{ name: "Java" }, { name: "Sprint Boot" }, { name: "Oracle DB" }],
         image: "/assets/work/thumb3.png",
         live: "",
         github: "",
@@ -67,7 +67,7 @@ const Work = () => {
                     <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
                         <div className="flex flex-col gap-[30px] h-[50%]">
                             <div className="text-8xl leading-none font-extrabold text-transparent text-outline">{project.num}</div>
-                            <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-[#00ff99] transition-all duration-500 capitalize">{project.category} project</h2>
+                            <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-[#00ff99] transition-all duration-500 capitalize">{project.category}</h2>
                             <p className="text-white/60">{project.description}</p>
                             <ul className="flex gap-4">
                                 {project.stack.map((item, index) => {
@@ -86,7 +86,7 @@ const Work = () => {
                                                 <BsArrowUpRight className="text-white text-3xl group-hover:text-[#00ff99]" />
                                             </TooltipTrigger>
                                             <TooltipContent>
-                                                <p>Live Project</p>
+                                                <p>Demo</p>
                                             </TooltipContent>
                                         </Tooltip>
                                     </TooltipProvider>
@@ -99,7 +99,7 @@ const Work = () => {
                                                 <BsGithub className="text-white text-3xl group-hover:text-[#00ff99]" />
                                             </TooltipTrigger>
                                             <TooltipContent>
-                                                <p>Github Repository</p>
+                                                <p>Repositorio Github</p>
                                             </TooltipContent>
                                         </Tooltip>
                                     </TooltipProvider>
