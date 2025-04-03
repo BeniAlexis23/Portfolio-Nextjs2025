@@ -22,8 +22,8 @@ const projects = [
         description: "Mi portafolio web personal construido con Next.js y Tailwind CSS.",
         stack: [{ name: "Next.js" }, { name: "Tailwind CSS" }],
         image: "/assets/work/thumb1.png",
-        live: "",
-        github: "",
+        live: "https://landing-next-2025.netlify.app/",
+        github: "https://github.com/BeniAlexis23/Next-landing",
     },
     {
         num: "02",
@@ -32,8 +32,8 @@ const projects = [
         description: "Sistema web desarrollado para la Facultad de Ingeniería de la UNDC, utilizando React, Tailwind CSS, Mongo DB y Node JS.",
         stack: [{ name: "React" }, { name: "Tailwind CSS" }, { name: "Mongo DB" }, { name: "Node.js" }],
         image: "/assets/work/thumb2.png",
-        live: "",
-        github: "",
+        live: "https://fi.undc.edu.pe/",
+        github: "https://github.com/BeniAlexis23/Sistema-FI-UNDC-2024",
     },
     {
         num: "03",
@@ -42,8 +42,8 @@ const projects = [
         description: "CRUD web utilizando APIs con Java, Sprint Boot y Oracle.",
         stack: [{ name: "Java" }, { name: "Sprint Boot" }, { name: "Oracle DB" }],
         image: "/assets/work/thumb3.png",
-        live: "",
-        github: "",
+        live: "#",
+        github: "https://github.com/BeniAlexis23/CRUD-java-oracle",
     },
 ]
 
@@ -79,7 +79,7 @@ const Work = () => {
                             <div className="border border-white/20"></div>
                             <div className="flex items-center gap-4">
                                 {/*live project button */}
-                                <Link href={project.live}>
+                                <Link href={project.live} target="_blank">
                                     <TooltipProvider delayDuration={100}>
                                         <Tooltip>
                                             <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -92,7 +92,7 @@ const Work = () => {
                                     </TooltipProvider>
                                 </Link>
                                 {/*github project button */}
-                                <Link href={project.github}>
+                                <Link href={project.github} target="_blank">
                                     <TooltipProvider delayDuration={100}>
                                         <Tooltip>
                                             <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">

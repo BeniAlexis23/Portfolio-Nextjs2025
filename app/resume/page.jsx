@@ -63,7 +63,7 @@ const experience = {
             duration: "2021 - 2022",
         },
         {
-            company: "Proyecto: Smart Cities Simulation",
+            company: "Project: Smart Cities Simulation",
             position: "Asistente Informatico",
             duration: "2018 - 2020",
         },
